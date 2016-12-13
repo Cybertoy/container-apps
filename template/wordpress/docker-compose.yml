@@ -3,7 +3,7 @@ wordpress:
   links:
     - db:mysql
   environment:
-    - WORDPRESS_DB_PASSWORD=example
+    - WORDPRESS_DB_PASSWORD: example
   ports:
     - "10084:80"
 
